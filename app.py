@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="Brain Tumor Detection")
 
 # Load model
-model = tf.keras.models.load_model("model/brain_tumor_model.h5")
+model = tf.keras.models.load_model("brain_tumor_model.h5")
 
 st.title("🧠 Brain Tumor Detection using CNN")
 
