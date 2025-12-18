@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("model/brain_tumor_model.h5")
+model = tf.keras.models.load_model("brain_tumor_dataset(5).h5")
 
 st.title("🧠 Brain Tumor Detection")
 st.write("Upload a Brain MRI image to detect tumor")
